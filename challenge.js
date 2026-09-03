@@ -1,4 +1,5 @@
 
+
 // CHALLENGE 1: FIND DUPLICATES IN A LIST
 
 
@@ -95,4 +96,5 @@ for (const student of students) {
 console.log(
     "Challenge 4 - Highest scorer:",
     highest.name + " with " + highest.score
+
 );
