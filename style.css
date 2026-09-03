@@ -1,0 +1,103 @@
+   GENERAL STYLES
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+   HEADER
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #222;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+   MAIN CONTENT
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 26px;
+    margin-top: 0;
+}
+
+   PROFILE SECTION
+
+.profile {
+    border-left: 5px solid #333;
+}
+
+   FLEXBOX INTERESTS
+
+.interests {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+   GITHUB
+
+.github a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.github a:hover {
+    background-color: #555;
+}
+
+   FOOTER
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
